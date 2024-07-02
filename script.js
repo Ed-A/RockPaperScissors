@@ -19,13 +19,7 @@ main.addEventListener("keydown", (e) => {
 
   switch (e.key) {
     case "0": //resets the game
-      you_win = 0;
-      comp_win = 0;
-      count_you.innerHTML = you_win;
-      count_comp.innerHTML = comp_win;
-      div1.innerHTML = "";
-      div2.innerHTML = "";
-      div3.innerHTML = "";
+      location.reload();
       break;
     case "1":
     case "2": 
